@@ -1,27 +1,4 @@
-a = 10
-b = 13
-
-if b > a:
-   b -= a
-   print(b)
-
-a = 10
-b = 13
-
-if b > a:
-   b += a
-   print(b)
-
-a = 10
-b = 13
-
-if b > a:
-   b *= a
-   print(b)
-
-a = 10
-b = 13
-
-if b > a:
-   b /= a
-   print(b)
+list = [1,2,3,4,5,6,7]
+list.insert(0, 7)
+list.pop(7)
+print(list)

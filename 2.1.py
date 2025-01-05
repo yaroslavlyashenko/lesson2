@@ -1,2 +1,27 @@
-for i in range (1, 5):
-    print (i)
+a = 10
+b = 13
+
+if b > a:
+   b -= a
+   print(b)
+
+a = 10
+b = 13
+
+if b > a:
+   b += a
+   print(b)
+
+a = 10
+b = 13
+
+if b > a:
+   b *= a
+   print(b)
+
+a = 10
+b = 13
+
+if b > a:
+   b /= a
+   print(b)
